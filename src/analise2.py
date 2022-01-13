@@ -7,7 +7,7 @@ os.system('cls')
 
 #2. Ordene os bairros em ordem crescente de faturamento médio dos listings
 
-print('----- Bairros x Faturamento médio R$ -----')
+print('----- Bairros x Faturamento médio R$ por listings-----')
 
 #simplificando a tabela
 data_df = data_df[['suburb','price_string','booked_on']]
@@ -21,7 +21,7 @@ billing = data_df[['suburb', 'price_string']].groupby('suburb').mean()
 #imprimindo o resultado em ordem crescente de faturamento médio
 print(billing.sort_values(by='price_string', ascending=True))
 
-print('----------------------------------------')
+print('------------------------------------------------------')
 
 #histograma referenciando os bairros x faturamento total
 chart = px.histogram(data_df, 'suburb', 'price_string', title='Faturamento total por bairro')
