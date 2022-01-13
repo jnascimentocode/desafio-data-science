@@ -49,14 +49,25 @@
 
 ### 1- Ordene os bairros em ordem crescente de número de listings
 
-* O bairro com o maior Listing é o Ingleses com 176.864 listings.
+![analise1](https://user-images.githubusercontent.com/95966908/149409704-20130a99-5b0b-4339-97fa-70eada84a568.PNG)
+
+* O bairro com o maior Listing é o **Ingleses** com **176.864 listings**.
 
 ### 2. Ordene os bairros em ordem crescente de faturamento médio dos listings
  
- * O bairro com o maior faturamento médio é Jurerê com a media de R$414.32 por listing.
+![analise2](https://user-images.githubusercontent.com/95966908/149410367-11ea9c12-398a-4fdc-a3fb-c4f1499977b7.PNG)
+ 
+ * O bairro com o maior faturamento médio é **Jurerê** com a média de **R$414.32** por listing.
  
 ### 3. Existem correlações entre as características de um anúncio e seu faturamento? Quais? Explique
- * No grafico de correlação, podemos ver que o faturamento está correlacionado ao número de quartos e número de banheiros, e podemos dizer que a nota do anuncio também tem uma certa relevância na análise. 
+
+![analise3](https://user-images.githubusercontent.com/95966908/149410427-e32d7afe-edc4-42c6-8a41-c521923153d5.png)
+
+ * No grafico de correlação, podemos ver que o faturamento está correlacionado ao **número de quartos e número de banheiros**, e podemos dizer que a **nota do anuncio** também tem uma certa relevância na análise.  
+ 
  
 ### 4. Qual a antecedência média das reservas? Esse número é maior ou menor para finais de semana?
- * É recorrente os usuários reservarem entre quarta, quinta e sextas-feiras com uma antecedencia média de 32 dias para a data da locação. Durante a semana, a média sobe para 35 dias, enquanto aos finais de semana temos uma média de 22 dias para a data da locação.
+
+![analise4](https://user-images.githubusercontent.com/95966908/149410489-85cf506d-e45a-4ee3-ac6a-a7fcb92a5076.PNG)
+
+ * É recorrente os usuários reservarem entre quarta, quinta e sexta-feira com uma **antecedencia média de 32 dias** para a data da locação. Durante a semana, a média sobe para **35 dias**, enquanto aos finais de semana temos uma **média de 22 dias** para a data da locação.
