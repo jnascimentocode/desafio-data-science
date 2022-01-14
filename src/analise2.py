@@ -14,21 +14,12 @@ data_df = data_df[['suburb','price_string','booked_on']]
 
 # filtrando todos os dados dos anuncios alugados
 data_df = data_df.loc[data_df['booked_on'] != 'blank']
+data_df = data_df.groupby('suburb').mean()
+billings = data_df.sort_values(by='price_string', ascending=True)
+billings = pd.DataFrame(billings)
+print(billings)
 
-#recebendo o faturamento médio dos anuncios alugados 
-billing = data_df[['suburb', 'price_string']].groupby('suburb').mean()
-
-#imprimindo o resultado em ordem crescente de faturamento médio
-print(billing.sort_values(by='price_string', ascending=True))
+chart = px.bar(billings, title='Bairros x Faturamento médio R$ por listings')
+chart.show()
 
 print('------------------------------------------------------')
-
-#histograma referenciando os bairros x faturamento total
-chart = px.histogram(data_df, 'suburb', 'price_string', title='Faturamento total por bairro')
-chart.show()
-
-#barra referenciando os bairros x faturamento médio
-billing = pd.DataFrame(billing)
-chart = px.bar(billing, title='Faturamento médio R$ por bairro')
-chart.show()
-

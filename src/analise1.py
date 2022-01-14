@@ -8,12 +8,17 @@ os.system('cls')
 #1. Ordene os bairros em ordem crescente de número de listings
 
 print('----- Bairros x Número de anúncios -----')
-dados_asc = data_df['suburb'].value_counts()
-print(dados_asc.sort_values(ascending=True))
+
+#filtrando a quantidade de anuncios
+data = data_df['suburb'].value_counts(ascending=True)
+data = pd.DataFrame(data)
+print(data)
+
+#total de anuncios
 print('----------------------------------------')
 print(f'Total de anúncios: {data_df.shape[0]}')
 print('----------------------------------------')
 
-#histograma referenciando os bairros x anuncios
-chart = px.histogram(data_df, x='suburb', title='Total de anúncios por bairro')
+#grafico de barra referenciando os bairros x anuncios
+chart = px.bar(data, title='Bairros x Número de anúncios')
 chart.show()
