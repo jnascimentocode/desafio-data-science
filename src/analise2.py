@@ -19,7 +19,7 @@ billings = data_df.sort_values(by='price_string', ascending=True)
 billings = pd.DataFrame(billings)
 print(billings)
 
-chart = px.bar(billings, title='Bairros x Faturamento médio R$ por listings')
+chart = px.bar(billings, text_auto=True, title='Bairros x Faturamento médio R$ por listings')
 chart.show()
 
 print('------------------------------------------------------')

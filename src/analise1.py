@@ -20,5 +20,5 @@ print(f'Total de anúncios: {data_df.shape[0]}')
 print('----------------------------------------')
 
 #grafico de barra referenciando os bairros x anuncios
-chart = px.bar(data, title='Bairros x Número de anúncios')
+chart = px.bar(data, text_auto=True, title='Bairros x Número de anúncios')
 chart.show()
