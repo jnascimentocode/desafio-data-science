@@ -49,13 +49,17 @@
 
 ### 1- Ordene os bairros em ordem crescente de número de listings
 
-![analise1](https://user-images.githubusercontent.com/95966908/149409704-20130a99-5b0b-4339-97fa-70eada84a568.PNG)
+![analise1](https://user-images.githubusercontent.com/95966908/149427680-38aa0f1b-c0fe-4b93-9da5-0027ba2bcf49.PNG)
+
+![listing per suburb](https://user-images.githubusercontent.com/95966908/149427712-847a4665-e15e-491f-8374-6242c3b46ca7.png)
 
 * O bairro com o maior Listing é o **Ingleses** com **176.864 listings**.
 
 ### 2. Ordene os bairros em ordem crescente de faturamento médio dos listings
  
-![analise2](https://user-images.githubusercontent.com/95966908/149410367-11ea9c12-398a-4fdc-a3fb-c4f1499977b7.PNG)
+![analise2](https://user-images.githubusercontent.com/95966908/149428619-7f832d46-e57f-40ad-9685-db0098cc0ac4.PNG)
+
+![mean billings per listing](https://user-images.githubusercontent.com/95966908/149428658-37cdf2b4-b6c3-49aa-a9bd-6b775ee7e86b.png)
  
  * O bairro com o maior faturamento médio é **Jurerê** com a média de **R$414.32** por listing.
  
