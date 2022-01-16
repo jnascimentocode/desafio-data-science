@@ -40,7 +40,7 @@ print('---Antecedência média das reservas por dia da semana---')
 comparisson = comparisson.groupby(['day_of_booking']).mean()
 comparisson = comparisson['days_to_book'].apply(lambda x: x / np.timedelta64(1,'D'))
 comparisson = pd.DataFrame(comparisson)
-print(comparisson.sort_values(by='day_of_booking', ascending=True))
+print(comparisson.sort_values(by='days_to_book', ascending=True))
 print('-------------------------------------------------------')
 
 #grafico em barras mostrando a antecedencia média das reservas por dia da semana
