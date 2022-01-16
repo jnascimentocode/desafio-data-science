@@ -71,7 +71,7 @@
  
 ### 4. Qual a antecedência média das reservas? Esse número é maior ou menor para finais de semana?
 
-![analise41](https://user-images.githubusercontent.com/95966908/149565314-823a7a79-56d6-4372-8cf5-098190f358a1.PNG)
+![analise4](https://user-images.githubusercontent.com/95966908/149682274-c7be00d5-2828-4920-91b9-77d900f15a0a.PNG)
 
 ![mean week book per days](https://user-images.githubusercontent.com/95966908/149561949-010a0c85-b528-473d-9f75-f1ed3a1963be.png)
 
